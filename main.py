@@ -1,3 +1,4 @@
+print("Калькулятор для двух целых чисел\n")
 x = int(input("Первое число: "))
 y = str(input("Введите действие: "))
 z = int(input("Второе число: "))
@@ -45,3 +46,4 @@ while returnn == "y":
         y = x ** z
     print("Ваш ответ: " + str(y))
     returnn = str(input("Продолжить? y/n "))
+    print("Конец программы. ")
