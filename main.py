@@ -46,4 +46,5 @@ while returnn == "y":
         y = x ** z
     print("Ваш ответ: " + str(y))
     returnn = str(input("Продолжить? y/n "))
+    print("\n")
     print("Конец программы. ")
